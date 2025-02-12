@@ -90,4 +90,4 @@ Feel free to subscribe to [/r/PowerDeleteSuite/](https://www.reddit.com/r/PowerD
 ## License
 
 j0be/PowerDeleteSuite is licensed under the GNU General Public License v2.0 (GPL-2.0).
-See the [LICENSE](./LICENSE.txt) file for more details.
+See the [LICENSE](/.github/LICENSE) file for more details.
