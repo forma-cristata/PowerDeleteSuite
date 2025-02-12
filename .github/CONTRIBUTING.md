@@ -1,3 +1,9 @@
+# CONTRIBUTING
+
+---
+
+---
+
 # Desired Contributions
 
 ---
@@ -26,7 +32,7 @@ Variables and functions must be descriptive and self-documenting whenever possib
 
 ### White Space, Indentation & Comments
 
-*White Space*:
+*White Space*: 
 
 - No trailing whitespace at the end of lines.
 - One blank line should exist between functions as well as between logical sections of code within functions.
@@ -41,7 +47,7 @@ Variables and functions must be descriptive and self-documenting whenever possib
 *Comments*:
 
 - Every file must begin with a comment block matching the one below outlining the licensing information of the project.
-
+    
     ```
     /*
      * This file is part of j0be/PowerDeleteSuite.
@@ -60,7 +66,7 @@ Variables and functions must be descriptive and self-documenting whenever possib
      * along with j0be/PowerDeleteSuite.  If not, see <http://www.gnu.org/licenses/>.
      */
     ```
-
+    
 - If your code fails to be self-documenting, please utilize general comments in a Documentation Block Comment. Read more [here](https://jsdoc.app/about-getting-started) if you are not familiar.
 
 ### String Literals
@@ -87,7 +93,7 @@ Contributors should run ESLint before submitting pull requests to maintain code 
 
 ## Forking
 
-**Please do not fork this project.**
+**Please do not fork this project.** 
 
 Contributions should be achieved through branches set for deletion upon merge approval/denial.
 
@@ -99,11 +105,10 @@ Branch names shall be prefixed with their applicable tag:
 
 - `feature/` for new features.
 - `issue<#>/` for addressing issues with the corresponding number of the issue being addressed (see below).
-
-    ![Screenshot 2025-02-11 194555.png](attachment:e859d154-2afc-445a-ab08-3c61061412e8:Screenshot_2025-02-11_194555.png)
-
+    
     Example: `issue74/<your-branch-name>` .
-
+    See exampleOfIssueNumber.png for reference.
+    
 - `generic/` for maintenance tasks and updates (refactoring for example).
 - `documentation/` for changes to the documentation.
     - Please ensure all of these changes reside in the `.github` directory.
@@ -112,30 +117,30 @@ Creating your branch:
 
 - Clone the repository.
 - Run this command when you have navigated to your local project’s directory:
-
+    
     ```bash
     git checkout -b <branch-name>
     ```
-
+    
 - Ensure that any commits are pushed only into your branch by using this command:
-
+    
     ```bash
     git push origin -u origin <your-branch-name>
     ```
-
+    
     - This ensures your local branch has a remote tracking branch of the same name referring to an upstream branch in your remote repository.
     - This avoids pushing all matching branches.
 
 Synchronizing your Branch:
 
 - When creating your branch, make sure you are branching from the master. This ensures that your work is based on the last stable version of the code.
-- To ensure your project is up-to-date with the latest changes in the master, please regularly sync your branch (every time you begin work again) in order to avoid wasted time.
+- To ensure your project is up-to-date with the latest changes in the master, please regularly sync your branch (every time you begin work again) in order to avoid wasted time. 
 To sync your branch run this command after you have navigated to your local project’s directory:
-
+    
     ```bash
-    git fetch origin
+    git fetch origin 
     ```
-
+    
 
 ---
 
@@ -159,7 +164,7 @@ To sync your branch run this command after you have navigated to your local proj
 
 ```
 Added Licensing, CLA & Contribution Guidelines
-Created a directory to house github files named .github.
+Created a directory to house github files named .github. 
 Created a CLA for all potential contributors to sign prior to pull requests.
 Added the GPLv2 License to the project and all project files.
 Closes issue #46
@@ -179,23 +184,15 @@ Follow the guidelines present for commit messages (above).
 
 ### How to Submit a Pull Request
 
-To submit a pull request, navigate to your branch within the repository:
+To submit a pull request, navigate to your branch within the repository (refer to image.png).
 
-![image.png](attachment:723ee54a-5930-42eb-bbad-dc3d9eea9d7b:image.png)
-
-Once you have pushed your changes, click on where it says “This branch is <#> commits ahead of….”
-
-![image.png](attachment:2faf51d6-291e-4671-b1e3-b9560fcf5728:image.png)
+Once you have pushed your changes, click on where it says “This branch is <#> commits ahead of….” (refer to image 1.png).
 
 If your branch is behind the master, it is your responsibility to sync your repository *BEFORE* submitting a pull request. Difficult merges will not be the responsibility of j0be or any subsidiaries.
 
-Next, double check your branch is merging into the master, and click “Create pull request.”
+Next, double check your branch is merging into the master, and click “Create pull request” (refer to image 2.png).
 
-![image.png](attachment:707976e5-8ccc-43a9-9d9d-4bbac0d8f12e:image.png)
-
-Ensure your title and content are consistent with the message guidelines above, and “Create pull request.”
-
-![image.png](attachment:71dc0441-b382-4f57-a6ef-8e32b5d751ef:image.png)
+Ensure your title and content are consistent with the message guidelines above, and “Create pull request” (refer to image 3.png).
 
 ---
 
@@ -217,7 +214,7 @@ The Reviewer checks the code to make sure it satisfactorily adheres to the guide
 
 ### Anticipated Response time
 
-We intend to review and respond to all pull requests but sometimes, life gets in the way.
+We intend to review and respond to all pull requests but sometimes, life gets in the way. 
 
 Here, we like to go with the flow and get there when we get there.
 
