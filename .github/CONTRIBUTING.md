@@ -99,7 +99,7 @@ Contributions should be achieved through branches set for deletion upon merge ap
 
 ---
 
-## Branching
+## Branching 
 
 Branch names shall be prefixed with their applicable tag:
 
